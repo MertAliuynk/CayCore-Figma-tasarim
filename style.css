@@ -1,0 +1,444 @@
+*
+{
+    user-select: none;
+}
+body
+{
+    padding: 0;
+    margin: 0;
+}
+@media screen and (max-width:750px)
+{
+    .welcome_page_text>span
+    {
+        font-size: 24px !important;
+    }
+    .footerleftfield
+    {
+        width: 50% !important;
+    }
+    .shopimg
+    {
+        width: 100% !important;
+    }
+    .navbar_logo
+    {
+        width: 22% !important;
+    }
+}
+@media screen and (max-height: 900px)
+{
+    .popup
+    {
+        display: none !important;
+    }
+}
+@media screen and (max-width:1600px)
+{
+    .navbar_buttons
+    {
+        display: none !important;
+    }
+    .mobilebutton
+    {
+        display: flex !important;
+        justify-content: center;
+        align-items: center;
+        cursor: pointer;
+    }
+    .welcome_page
+    {
+        flex-direction: column !important;
+        height: 70% !important;
+    }
+    .welcome_page_text
+    {
+        justify-content: center !important;
+        align-content: center !important;
+        width: 100% !important;
+        height: 15% !important;
+        margin: 0 !important;
+    }
+    .welcome_page_text>span
+    {
+        align-content: center !important;
+        margin-bottom: 0 !important;
+        margin-top: 5%;
+    }
+    .welcome_page_img_container
+    {
+        align-content: center !important;
+        height: 60% !important;
+        width: 100% !important;
+        margin-bottom: 8%;
+    }
+    .middletextarea>span
+    {
+        width: 100% !important;
+    }
+    .city​areas_page
+    {
+        height: 140% !important;
+    }
+    .city​areas_page_text
+    {
+        height: 10% !important;
+        width: 100% !important;
+        margin: 0 !important;
+    }
+    .city​areas_page_text>span
+    {
+        justify-content: center !important;
+        align-content: center !important;
+       display: flex !important;
+    }
+    .city​areas_page_img_container
+    {
+        flex-direction: column !important;
+        align-items: center !important;
+        height: 90% !important;
+        gap: 5% !important;  
+    }
+    .city​areas_page_img
+    {
+        height: 30% !important;
+        width: 60% !important;
+    }
+    .withimg>img
+    {
+        border-radius: 10% !important;
+    }
+}
+/* navbar start */
+.navbar
+{
+    justify-content: space-between;
+    background-color: #F5F5F5;
+    flex-direction: row;
+    display: flex;
+    width: 100%;
+    height: 8%;
+}
+/* navbar logo section on the left start */
+.navbar_logo
+{
+    justify-content:center ;
+    align-items: center;
+    display: flex;
+    height: 100%;
+    width: 16%;
+}
+.navbar_logo>span
+{
+    color:#318B11;
+    font-size: 20px;
+    cursor: pointer;
+}
+/* navbar logo section on the left end */
+/* navbar right side button lake start*/
+.navbar_buttons
+{
+    flex-direction: row;
+    margin-right: 50px;
+    display: flex;
+    height: 100%;
+    gap: 30px;
+}
+.mobilebutton
+{
+    display: none;
+    width: 10%;
+    height: 100%;
+}
+.account_transactions
+{
+    align-items: center;
+    display: flex;
+    gap: 35px;
+}
+.account_transactions>button
+{
+    border: 2px solid #318B11;
+    background-color: white;
+    justify-content: center;
+    border-radius: 10px;
+    align-items: center;
+    color : #318B11;
+    cursor: pointer;
+    display: flex;
+    width: 120px;
+    height: 50%;
+}
+.account_transactions>button:hover
+{
+    background-color: #318B11;
+    cursor: pointer;
+    color: white;
+}
+.account_transactions>button:active
+{
+    transform: translateY(2px);
+}
+.language_operations
+{
+    align-items: center;
+    display: flex;
+    gap: 5px;
+}
+.language_indicator
+{
+    align-items: center;
+    display: flex;
+    gap: 7px;
+}
+.popup_tab
+{
+    margin-left: 10px;
+    cursor: pointer;
+}
+.popup_tab:active
+{
+    transform: translateY(2px);
+}
+/* navbar right side button lake end*/
+/* navbar end */
+/*welcome page start*/
+.welcome_page
+{
+    justify-content: space-between;
+    display: flex;
+    height: 75%;
+    width: 100%;
+}
+/* welcome page text area on the left start */
+.welcome_page_text
+{
+    justify-content: center;
+    align-items:  center;
+    margin-left: 95px;
+    font-size: 36px;
+    display: flex;
+    height: 100%;
+    width: 23%;
+}
+/* welcome page text area on the left end */
+/* image section on the right side of the welcome page start */
+.welcome_page_img_container
+{
+    justify-content: center;
+    align-items: center;
+    margin-right: 3%;
+    margin-top: 3%;
+    display: flex;
+    height: 100%;
+    width: 40%;
+}
+.welcome_page_img
+{
+    justify-content: center;
+    align-items: center;
+    display: flex;
+    height: 70%;
+    width: 70%;
+}
+.welcome_page_img>img
+{
+    height: 100%;
+    width: 100%;
+}
+/* image section on the right side of the welcome page end */
+/* welcome page end */
+/* middle area text start */
+.middletextarea
+{
+    height: 15%;
+    width: 100%;
+}
+.middletextarea>span
+{
+    justify-content: center;
+    align-content: center;
+    font-size: 28px;
+    display: flex;
+    height: 100%;
+    width: 30%;
+}
+/* middle area text end */
+/* intermediate page start */
+.intermediate_page
+{
+    background-color: #060C21;
+    justify-content: center;
+    margin-bottom: 12%;
+    display: flex;
+    width: 100%;
+    height: 38%;
+}
+/* shop picture on intermediate page end */
+.shopimg
+{
+    height: 100%;
+    width: 75%;
+}
+/* shop picture on intermediate page end */
+/*intermediate page start end */
+/* city​ areas page start*/
+.city​areas_page
+{
+    flex-direction: column;
+    display: flex;
+    height: 50%;
+    width: 100%;
+}
+.city​areas_page_text
+{
+    justify-content: center ;
+    align-content: center;
+    margin-bottom: 3%;
+    margin-left: 3%;
+    display: flex;
+    height: 5%;
+    width: 25%;
+}
+.city​areas_page_text>span
+{
+    font-size: 26px;
+}
+.city​areas_page_img_container
+{
+    justify-content: center;
+    flex-direction: row;
+    display: flex;
+    width: 100%;
+    height: 92%;
+    gap: 8%;
+}
+.city​areas_page_img
+{
+    position: relative;
+    overflow: hidden;
+    height: 100%;
+    width: 25%;
+}
+.withimg
+{
+    height: 100%;
+    width: 100%;
+}
+.withimg>img
+{
+    border-radius: 5%;
+    height: 100%;
+    width: 100%;
+}
+.city​areas_page_img:hover>.withimg
+{
+    filter: blur(4px);
+}
+.withbutton
+{
+    position: absolute;
+    height: 13%;
+    width: 28%;
+    top: 150%;
+    left: 10%;
+}
+.withbutton>button
+{
+    border: 1px solid #318B11;
+    border-radius: 10px;
+    height: 100%;
+    width: 100%;
+}
+.withbutton>button:hover
+{
+    background-color: #318B11;
+    cursor: pointer;    
+    color: white;
+}
+.withbutton>button:active
+{
+    transform: translateY(4px);
+}
+.city​areas_page_img:hover>.withbutton
+{
+    top: 80%;
+}
+/* city​ areas page end*/
+/* footer start */
+.footer
+{
+    border-top: 1px solid #318B11;
+    justify-content: space-between;
+    margin-top: 8%;
+    display: flex;
+    height: 10%;
+    width: 100%;
+}
+.footerleftfield
+{
+    flex-direction: row;
+    align-items: center;
+    color: #318B11;
+    margin-left: 3%;
+    display: flex;
+    height: 100%;
+    width: 25%;
+    gap: 5%;
+}
+.footerrightfield
+{
+    justify-content: center;
+    align-items: center;
+    color: #318B11;
+    display: flex;
+    height: 100%;
+    width: 10%;
+}
+/* footer end */
+/* popup start */
+.popup
+{
+    border: 2px solid #318B11;
+    background-color: #EBEBEB;
+    justify-content: center;
+    flex-direction: column;
+    align-items: center;
+    border-radius: 5%;
+    position: fixed;
+    display: none;
+    width: auto;
+    height: 40%;
+    z-index: 5;
+    left: 11%;
+    top: 40%;
+}
+.popup_title
+{
+    font-size: 20px;
+    margin-top: 3%;
+}
+.popup_text
+{
+    justify-content: center;
+    flex-direction: column;
+    margin: 5px 20px;
+    display: flex;
+}
+.popup>button
+{
+    border: 2px solid #318B11;
+    background-color: white;
+    border-radius: 10px;
+    position: relative;
+    color: #318B11;
+    height: 10%;
+    right: 35%;
+}
+.popup>button:hover
+{
+    background-color: #318B11;
+    cursor: pointer;
+    color: white;
+} 
+/* popup end
